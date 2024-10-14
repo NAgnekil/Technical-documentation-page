@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css"
+      rel="stylesheet"
+    />
+    <title>Technical Documentation Page</title>
+    <meta
+      name="description"
+      content="A part of the Responsive Web Development Certification at freecodecamp.org"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>StyleFlex</header>
+      <ol>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Grid_Systems">Grid System</a></li>
+        <li>
+          <a class="nav-link" href="#Flexbox_Utilities">Flexbox Utilities</a>
+        </li>
+        <li><a class="nav-link" href="#Typography">Typography</a></li>
+        <li>
+          <a class="nav-link" href="#Colors_and_Themes">Colors and Themes</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Buttons_and_Forms">Buttons and Forms</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Responsive_Breakpoints"
+            >Responsive Breakpoints</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Customizing_with_Variables"
+            >Customizing with Variables</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Getting_Started">Getting Started</a></li>
+        <li><a class="nav-link" href="#Browser_Support">Browser Support</a></li>
+      </ol>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header class="topic-header">Introduction</header>
+        <p>
+          Welcome to StyleFlex, a lightweight CSS framework designed to make
+          building responsive, beautiful websites easy. It combines the power of
+          CSS Grid and Flexbox with pre-built components to jumpstart your
+          development process. Let’s dive into the features that make StyleFlex
+          stand out.
+        </p>
+      </section>
+      <section class="main-section" id="Grid_System">
+        <header class="topic-header">Grid System</header>
+        <p>
+          StyleFlex includes a 12-column responsive grid system, allowing you to
+          build flexible layouts with ease. Example:
+        </p>
+        <pre><code></code></pre>
+        <ul>
+          <li>
+            Classes: <code>col-[size]</code>, <code>row</code>,
+            <code>container</code>
+          </li>
+          <li>Breakpoints: xs, sm, md, lg, xl</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Flexbox_Utilities">
+        <header class="topic-header">Flexbox Utilities</header>
+        <p>
+          Leverage powerful Flexbox utilities to control the alignment and
+          distribution of elements in a flexible way. <br /><br />
+          Classes:
+        </p>
+        <ul>
+          <li>
+            <code>.flex-center</code>: Center content horizontally and
+            vertically.
+          </li>
+          <li><code>.flex-column</code>: Stack elements vertically.</li>
+        </ul>
+        <p>Example:</p>
+        <pre><code></code></pre>
+      </section>
+      <section class="main-section" id="Typography">
+        <header class="topic-header">Typography</header>
+        <p>StyleFlex offers a simple, scalable typography system. Headers:</p>
+        <pre><code></code></pre>
+        <p>Body Text:</p>
+        <ul>
+          <li>Base font size: 16px</li>
+          <li>Font-family: <code>sans-serif</code></li>
+        </ul>
+      </section>
+      <section class="main-section" id="Colors_and_Themes">
+        <header class="topic-header">Colors and Themes</header>
+        <p>
+          Customize your site’s color scheme using StyleFlex's predefined color
+          palette or set your own with custom variables. Primary Colors:
+        </p>
+        <ul>
+          <li><code>.bg-primary</code>: Primary background color</li>
+          <li><code>.text-primary</code>: Primary text color</li>
+        </ul>
+        <p>Example:</p>
+        <pre><code></code></pre>
+      </section>
+      <section class="main-section" id="Buttons_and_Forms">
+        <header class="topic-header">Buttons and Forms</header>
+        <p>
+          StyleFlex provides pre-styled buttons and form elements for quick
+          development. Button Styles:
+        </p>
+        <ul>
+          <li>
+            <code>.btn-primary</code>, <code>.btn-secondary</code>,
+            <code>.btn-outline</code>
+          </li>
+        </ul>
+        <p>Form Input Example:</p>
+        <pre><code></code></pre>
+      </section>
+      <section class="main-section" id="Responsive_Breakpoints">
+        <header class="topic-header">Responsive Breakpoints</header>
+        <p>
+          StyleFlex is mobile-first. Here are the defined breakpoints for
+          responsiveness:
+        </p>
+        <ul>
+          <li><code>xs</code> (up to 576px)</li>
+          <li><code>sm</code> (576px and up)</li>
+          <li><code>md</code> (768px and up)</li>
+          <li><code>lg</code> (992px and up)</li>
+          <li><code>xl</code> (1200px and up)</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Customizing_with_Variables">
+        <header class="topic-header">Customizing with Variables</header>
+        <p>
+          StyleFlex allows for easy customization through CSS variables. Change
+          the theme or layout by overriding the default variables. Example:
+        </p>
+        <pre><code></code></pre>
+      </section>
+      <section class="main-section" id="Getting_Started">
+        <header class="topic-header">Getting Started</header>
+        <p>
+          To start using StyleFlex, simply link the framework’s CSS file in your
+          HTML file:
+        </p>
+        <pre><code></code></pre>
+        <p>Or, install via npm:</p>
+        <pre><code></code></pre>
+      </section>
+      <section class="main-section" id="Browser_Support">
+        <header class="topic-header">Browser Support</header>
+        <p>
+          StyleFlex supports the latest versions of all modern browsers,
+          including:
+        </p>
+        <ul>
+          <li>Google Chrome</li>
+          <li>Firefox</li>
+          <li>Safari</li>
+          <li>Microsoft Edge</li>
+          <li>Opera</li>
+        </ul>
+      </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+  </body>
+</html>

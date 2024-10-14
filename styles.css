@@ -1,0 +1,12 @@
+code[class*='language-'],
+pre[class*='language-'] {
+  font-size: 0.8rem !important;
+}
+
+code {
+  position: relative;
+  left: -60px;
+}
+#Getting_Started pre:last-child code {
+  position: static !important;
+}

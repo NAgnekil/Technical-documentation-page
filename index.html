@@ -61,7 +61,14 @@
           StyleFlex includes a 12-column responsive grid system, allowing you to
           build flexible layouts with ease. Example:
         </p>
-        <pre><code></code></pre>
+        <pre><code class="language-html">
+          &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;row&quot;&gt;
+              &lt;div class=&quot;col-6&quot;&gt;50% width&lt;/div&gt;
+              &lt;div class=&quot;col-6&quot;&gt;50% width&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          </code></pre>
         <ul>
           <li>
             Classes: <code>col-[size]</code>, <code>row</code>,
@@ -85,12 +92,22 @@
           <li><code>.flex-column</code>: Stack elements vertically.</li>
         </ul>
         <p>Example:</p>
-        <pre><code></code></pre>
+        <pre><code class="language-markup">
+          &lt;div class=&quot;flex-center&quot;&gt;
+            &lt;div&gt;Content 1&lt;/div&gt;
+            &lt;div&gt;Content 2&lt;/div&gt;
+          &lt;/div&gt;
+          </code></pre>
       </section>
       <section class="main-section" id="Typography">
         <header class="topic-header">Typography</header>
         <p>StyleFlex offers a simple, scalable typography system. Headers:</p>
-        <pre><code></code></pre>
+        <pre><code class="language-markup">
+          &lt;h1&gt;Heading 1&lt;/h1&gt;
+          &lt;h2&gt;Heading 2&lt;/h2&gt;
+          &lt;h3&gt;Heading 3&lt;/h3&gt;
+          </code></pre>
+
         <p>Body Text:</p>
         <ul>
           <li>Base font size: 16px</li>
@@ -108,7 +125,11 @@
           <li><code>.text-primary</code>: Primary text color</li>
         </ul>
         <p>Example:</p>
-        <pre><code></code></pre>
+        <pre><code class="language-markup">
+          &lt;div class=&quot;bg-primary text-light&quot;&gt;
+            Primary Colored Section
+          &lt;/div&gt;
+          </code></pre>
       </section>
       <section class="main-section" id="Buttons_and_Forms">
         <header class="topic-header">Buttons and Forms</header>
@@ -123,7 +144,10 @@
           </li>
         </ul>
         <p>Form Input Example:</p>
-        <pre><code></code></pre>
+        <pre><code class="language-markup">
+          &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Enter text&quot;&gt;
+          &lt;button class=&quot;btn-primary&quot;&gt;Submit&lt;/button&gt;
+          </code></pre>
       </section>
       <section class="main-section" id="Responsive_Breakpoints">
         <header class="topic-header">Responsive Breakpoints</header>
@@ -145,7 +169,12 @@
           StyleFlex allows for easy customization through CSS variables. Change
           the theme or layout by overriding the default variables. Example:
         </p>
-        <pre><code></code></pre>
+        <pre><code class="language-css">
+          :root {
+            --primary-color: #3B7A57;
+            --font-family: 'Arial, sans-serif';
+          }
+          </code></pre>
       </section>
       <section class="main-section" id="Getting_Started">
         <header class="topic-header">Getting Started</header>
@@ -153,9 +182,13 @@
           To start using StyleFlex, simply link the framework’s CSS file in your
           HTML file:
         </p>
-        <pre><code></code></pre>
+        <pre><code class="language-markup">
+          &lt;link rel=&quot;stylesheet&quot; href=&quot;styleflex.css&quot;&gt;
+          </code></pre>
+
         <p>Or, install via npm:</p>
-        <pre><code></code></pre>
+        <pre><code class="language-bash">npm install styleflex
+        </code></pre>
       </section>
       <section class="main-section" id="Browser_Support">
         <header class="topic-header">Browser Support</header>

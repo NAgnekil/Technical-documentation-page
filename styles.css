@@ -61,8 +61,19 @@ nav header {
 }
 
 nav a {
+  display: block;
+  padding: 0.8rem;
   text-decoration: none;
   color: var(--color-green);
+}
+
+nav a.active {
+  font-weight: bold;
+  background-color: #e8e8e8;
+}
+
+nav a.active:parent {
+  background-color: #e8e8e8;
 }
 
 ol {
@@ -70,7 +81,6 @@ ol {
 }
 
 ol li {
-  padding-top: 1.3rem;
   font-size: 1.3rem;
 }
 
